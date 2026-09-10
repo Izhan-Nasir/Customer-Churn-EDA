@@ -311,50 +311,6 @@ Potential areas for further investigation include:
 
 These findings describe **associations rather than causal relationships**. Further statistical analysis and predictive modeling are required to determine which variables provide independent predictive value.
 
----
-
-# 🤖 Next Step: Churn Prediction
-
-This EDA is intended to serve as a foundation for the next stage of the project: developing a **customer churn-prediction model**.
-
-The data science team can use the exploratory findings to investigate behavioral and engineered features such as:
-
-* Engagement
-* Spending
-* Purchase frequency
-* Customer behavior type
-* Customer value
-* Other validated engineered features
-
-The predictive modeling stage should evaluate whether these variables retain their predictive value when considered simultaneously.
-
----
-
-# 📁 Repository Structure
-
-```text
-customer-churn-analysis/
-│
-├── data/
-│   └── customer_churn.csv
-│
-├── notebook/
-│   └── customer_churn_eda.ipynb
-│
-├── report/
-│   ├── main.tex
-│   ├── customer_churn_report.pdf
-│   └── figures/
-│       ├── ...
-│
-├── README.md
-└── requirements.txt
-```
-
-> File and folder names may vary depending on the final repository structure.
-
----
-
 # 🛠️ Tools & Technologies
 
 * **Python**
